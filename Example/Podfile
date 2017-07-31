@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SDRequest_Example' do
+  pod 'SDRequest', :path => '../'
+
+  target 'SDRequest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
