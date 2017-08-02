@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'chenkefeng_java@163.com' => 'chenkefeng@kuaicto.com' }
-    s.source           = { :git => 'https://github.com/chenkefeng_java@163.com/SDRequest.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/chenkefeng/SDRequest.git', :tag => s.version.to_s }
 
     s.ios.deployment_target = '9.0'
 
