@@ -13,6 +13,12 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		89E96AD81F302755009E2DB9 /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E96AD71F302755009E2DB9 /* UserApi.swift */; };
+		89E96ADA1F3028A4009E2DB9 /* LoginRespModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E96AD91F3028A4009E2DB9 /* LoginRespModel.swift */; };
+		89E96AE01F304B5E009E2DB9 /* UpLoadApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E96ADF1F304B5E009E2DB9 /* UpLoadApi.swift */; };
+		89E96AE41F304E8F009E2DB9 /* abc.png in Resources */ = {isa = PBXBuildFile; fileRef = 89E96AE31F304E8F009E2DB9 /* abc.png */; };
+		89E96AE61F306F62009E2DB9 /* DownloadApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E96AE51F306F62009E2DB9 /* DownloadApi.swift */; };
+		89E96AEA1F309AAE009E2DB9 /* DemoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E96AE91F309AAE009E2DB9 /* DemoVM.swift */; };
 		B3846BD68378A4991E357FD7 /* Pods_SDRequest_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AE5DDA07F8D3D3C2336EC7 /* Pods_SDRequest_Tests.framework */; };
 		D747A4FD14CACEA42A5E36A1 /* Pods_SDRequest_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5E4049E415A8B5CCA8D58A /* Pods_SDRequest_Example.framework */; };
 /* End PBXBuildFile section */
@@ -28,11 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04F9F05BD4F4EEDEB70B6053 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		04F9F05BD4F4EEDEB70B6053 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		17AE5DDA07F8D3D3C2336EC7 /* Pods_SDRequest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDRequest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		267EAD22D82C42A00CB6F202 /* Pods-SDRequest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDRequest_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDRequest_Tests/Pods-SDRequest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2A5E4049E415A8B5CCA8D58A /* Pods_SDRequest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDRequest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AF0BDB8525B849441EE0745 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4AF0BDB8525B849441EE0745 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5A178086F4EC2705E36586DC /* Pods-SDRequest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDRequest_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDRequest_Example/Pods-SDRequest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SDRequest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDRequest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,8 +51,14 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6912B04C866FAF39070B8DE3 /* Pods-SDRequest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDRequest_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDRequest_Example/Pods-SDRequest_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		89E96AD71F302755009E2DB9 /* UserApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
+		89E96AD91F3028A4009E2DB9 /* LoginRespModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRespModel.swift; sourceTree = "<group>"; };
+		89E96ADF1F304B5E009E2DB9 /* UpLoadApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpLoadApi.swift; sourceTree = "<group>"; };
+		89E96AE31F304E8F009E2DB9 /* abc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abc.png; sourceTree = "<group>"; };
+		89E96AE51F306F62009E2DB9 /* DownloadApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadApi.swift; sourceTree = "<group>"; };
+		89E96AE91F309AAE009E2DB9 /* DemoVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoVM.swift; sourceTree = "<group>"; };
 		BD885010D1CA789D5586E0FC /* Pods-SDRequest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDRequest_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDRequest_Tests/Pods-SDRequest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D368227EB415F26594510A5C /* SDRequest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SDRequest.podspec; path = ../SDRequest.podspec; sourceTree = "<group>"; };
+		D368227EB415F26594510A5C /* SDRequest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SDRequest.podspec; path = ../SDRequest.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,12 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				89E96AD71F302755009E2DB9 /* UserApi.swift */,
+				89E96AE31F304E8F009E2DB9 /* abc.png */,
+				89E96AD91F3028A4009E2DB9 /* LoginRespModel.swift */,
+				89E96ADF1F304B5E009E2DB9 /* UpLoadApi.swift */,
+				89E96AE91F309AAE009E2DB9 /* DemoVM.swift */,
+				89E96AE51F306F62009E2DB9 /* DownloadApi.swift */,
 			);
 			name = "Example for SDRequest";
 			path = SDRequest;
@@ -251,6 +269,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				89E96AE41F304E8F009E2DB9 /* abc.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,8 +380,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89E96AE01F304B5E009E2DB9 /* UpLoadApi.swift in Sources */,
+				89E96AD81F302755009E2DB9 /* UserApi.swift in Sources */,
+				89E96AE61F306F62009E2DB9 /* DownloadApi.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				89E96ADA1F3028A4009E2DB9 /* LoginRespModel.swift in Sources */,
+				89E96AEA1F309AAE009E2DB9 /* DemoVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -483,7 +507,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

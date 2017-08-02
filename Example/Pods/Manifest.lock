@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.5.0)
+  - HandyJSON (1.7.2)
+  - Moya/Core (8.0.5):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (8.0.5):
+    - Moya/Core
+    - RxSwift (~> 3.0)
+  - Result (3.2.3)
+  - RxSwift (3.6.1)
+  - SDRequest (1.0):
+    - HandyJSON
+    - Moya/RxSwift
+
+DEPENDENCIES:
+  - SDRequest (from `../`)
+
+EXTERNAL SOURCES:
+  SDRequest:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  HandyJSON: e7ad0483005826baba1d1c251cd98d0aa8bd8cce
+  Moya: c37eec09a098ba9991b5a963b291fc5704bdb9ef
+  Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
+  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  SDRequest: 166d04142e4f121f3c85862ad7e109dd34faf513
+
+PODFILE CHECKSUM: f417d4ca6cb0a8ae7bac9515e395e7fa190fcd26
+
+COCOAPODS: 1.2.0

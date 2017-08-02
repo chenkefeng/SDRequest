@@ -1,0 +1,6 @@
+framework module SDRequest {
+  umbrella header "SDRequest-umbrella.h"
+
+  export *
+  module * { export * }
+}
