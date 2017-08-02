@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
     s.version          = '1.0'
     s.summary          = '基于Moya封装的网络请求库'
 
-    s.homepage         = 'https://github.com/chenkefeng_java@163.com/SDRequest'
+    s.homepage         = 'https://github.com/chenkefeng/SDRequest'
 
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'chenkefeng_java@163.com' => 'chenkefeng@kuaicto.com' }
